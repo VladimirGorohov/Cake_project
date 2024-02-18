@@ -1,0 +1,19 @@
+.cart__empty_btn{
+    width: 307px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    background: #E7CDD1;
+    color: white;
+    border-radius: 30px;
+    margin: 15px 0;
+}
+
+.cart__empty_text{
+    font-size: 35px;
+}
+
+
+
+

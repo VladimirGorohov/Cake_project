@@ -1,0 +1,270 @@
+
+p {
+  color: white;  
+}
+
+.header__menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__contacts {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons__Chat:hover {
+    color: green;
+}
+
+.icons__Instagram:hover{
+    color: rgb(255, 193, 251);
+}
+
+.icons__WhatsApp:hover{
+    color: green;
+}
+.icons__Chat
+{
+    margin-left: 10px;
+    font-size: 29px;
+    border-radius: 50%;
+}
+
+.icons__WhatsApp{
+    font-size: 29px;
+    border-radius: 50%;
+}
+
+.icons__Instagram {
+    font-size: 25px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.icons__cart{
+    color: black;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.icons__cart:hover{
+    background: #E7CDD1;
+
+}
+
+
+.contacts__btn{
+    /* margin-left: 30px; */
+    text-transform: uppercase;
+    border: 2px solid #D4AF37;
+    padding: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__btn_icon,
+.contacts__btn_text {
+    color: #D4AF37;
+    margin: 0 10px;
+    font-size: 21px;
+}
+
+.contacts__phone{
+    color:black;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.contacts__time{
+    color: black;
+    font-size: 20px;
+}
+
+.contacts__btn:hover{
+    background: linear-gradient(135deg, rgb(212, 175, 55) 50%, rgb(234, 200, 90) 8%, rgb(229, 181, 27) 63%);;
+    color: white;
+    border: 2px solid #9e8225;
+}
+
+.contacts__btn:hover .contacts__btn_text{
+    color: white;
+}
+
+.contacts__btn:hover .contacts__btn_icon {
+    color: white
+}
+
+.cart{
+    position: relative;
+}
+
+.cart__num {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    color: #D4AF37;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+@media (max-width: 1024px) { 
+    .contacts__time{
+        font-size: 15px;
+    }
+    .contacts__phone{
+        font-size: 21px;
+    }
+
+    .contacts__btn_text{
+        font-size: 21px;
+    }
+
+    .contacts__btn{
+        margin-left: 30px;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .contacts__btn_icon{
+        margin: 0 5px;
+    }
+
+  }
+
+  @media (max-width: 980px) { 
+    .contacts__btn,
+    .icons__Chat,
+    .icons__WhatsApp,
+    .icons__Instagram,
+    .icons__cart,
+    .cart__num{
+        display: none;
+    }
+
+    .contacts__box{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: baseline;
+    }
+
+    .contacts__time{
+        font-size: 21px;
+    }
+
+    .contacts__phone{
+        font-size: 24px;
+    }
+
+    .contacts__btn_text{
+        font-size: 21px;
+    }
+
+    
+
+    .contacts__btn_icon, 
+    .contacts__btn_text {   
+        margin: 0 4px;
+  }
+
+  .contacts__btn_icon{
+    font-size: 17px;
+}
+}
+
+  @media (max-width: 768px) { 
+
+    .contacts__box{
+        flex-direction: column;
+    }
+
+    .contacts__time{
+        font-size: 15px;
+    }
+    .contacts__phone{
+        font-size: 17px;
+    }
+
+    .contacts__btn_text{
+        font-size: 15px;
+        margin: 0 5px;
+    }
+
+    .contacts__btn{
+        margin-left: 10px;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .contacts__btn_icon{
+        margin: 0 5px;
+        font-size: 18px;
+    }
+
+    .icons__Chat{
+        display: none;
+    }
+
+    .icons__Chat,
+    .icons__WhatsApp,
+    .icons__Instagram
+    {
+        margin-left: 6px;
+        font-size: 25px;
+    }
+  }
+
+  @media (max-width: 700px) { 
+    .contacts__btn{
+        display: none;
+    }
+    .contacts__box{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: baseline;
+        margin: 0 auto;
+    }
+    .icons__WhatsApp,
+    .icons__Instagram
+    {
+        display: none;
+    }
+
+    .contacts__phone{
+        font-size: 24px;
+    }
+    }
+
+    @media (max-width: 480px) { 
+        .contacts__box{
+            flex-direction: column;
+        }
+        .contacts__phone{
+            font-size: 17px;
+        }
+
+        }
+
+
+
+
+

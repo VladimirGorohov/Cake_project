@@ -1,0 +1,8 @@
+[
+    {"id":"1", "title":"Праздничные торты", "link":"/birthday_cake"},
+    {"id":"2", "title":"Детские торты", "link":"/children_cake"},
+    {"id":"3", "title":"Корпоративные торты", "link":"/corporate_cake"},
+    {"id":"4", "title":"Капкейки", "link":"/cupcakes"},
+    {"id":"5", "title":"Бенто торты", "link":"/bentocakes"},
+    {"id":"6", "title":"Доп. к торту", "link":"/additions"}
+]

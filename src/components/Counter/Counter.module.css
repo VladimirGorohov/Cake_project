@@ -1,0 +1,11 @@
+.cart__icons_minus,
+.cart__icons_plus{
+    font-size: 25px;
+}
+
+.counter{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

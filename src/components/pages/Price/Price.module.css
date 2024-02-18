@@ -1,0 +1,42 @@
+.price__header{
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.price__discription{
+    line-height: 29px;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.price{
+    margin-bottom: 30px;
+}
+
+.price__item{
+    display: flex;
+    border: 1px solid #E7CDD1;
+    border-radius: 30px;
+    min-width: 800px;
+    height: 50px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price__item_title{
+    color:black;
+    width: 70%;
+    padding-left: 3%;
+    font-size: 21px;
+    
+}
+
+.price__item_num{
+    color: black;
+    border-left: 1px solid #E7CDD1;
+    width: 30%;
+    padding-left: 5%;
+    font-size: 21px;
+}
